@@ -16,7 +16,7 @@ Most of my work is documented in papers and technical reports; wherever possible
 
 - **extract high-fidelity vehicle trajectories from aerial videos (TGSIM, FHWA)** Developed a deep-learning pipeline (detection → tracking → stabilization → cleaning) that processed  
   14 hours of raw helicopter video into **11,000+ vehicle-kilometers** of accurate trajectories.  
-  - [code](https://github.com/ylinzhang12/TGSIM-trajectory-pipeline) &nbsp; [pdf](https://www.researchgate.net/profile/Pedram-Beigi-3/publication/382536893_Introduction_to_the_Third_Generation_Simulation_Dataset_Data_Collection_and_Trajectory_Extraction/links/675544daad10b614ef36f8fb/Introduction-to-the-Third-Generation-Simulation-Dataset-Data-Collection-and-Trajectory-Extraction.pdf)  
+  - [code](https://github.com/ylinzhang12/TGSIM-trajectory-pipeline) &nbsp; [pdf](https://journals.sagepub.com/doi/abs/10.1177/03611981241257257) &nbsp; [data](https://catalog.data.gov/dataset/?q=TGSIM&sort=views_recent+desc) 
 
 - **validate and compare large-scale AV trajectory datasets** (e.g., Waymo Open Motion vs. a Phoenix naturalistic dataset), focusing on lane-changing, car-following, and intersection behavior  
   - [pdf](https://arxiv.org/pdf/2509.03515)
