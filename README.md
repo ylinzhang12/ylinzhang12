@@ -20,8 +20,6 @@ Most of my work is documented in papers and technical reports; wherever possible
 
 - **validate and compare large-scale AV trajectory datasets** (e.g., Waymo Open Motion vs. a Phoenix naturalistic dataset), focusing on lane-changing, car-following, and intersection behavior  
   - [pdf](https://arxiv.org/pdf/2509.03515)
-
-- **develop real-time perception stacks in ROS** with LiDAR segmentation, radar tracking, camera fusion, and longitudinal control evaluation on a Dataspeed drive-by-wire platform  
  
 - **develop perception and analytics pipelines for autonomous driving**  
   Designed and implemented ROS modules for real-time LiDAR segmentation, radar tracking, camera fusion, and Kalman-filter-based lead-vehicle detection. In parallel, I built a unified data analysis pipeline for trajectory cleaning, interpolation, smoothing, lane assignment, kinematics estimation, and interaction feature extraction, supporting large-scale datasets.
