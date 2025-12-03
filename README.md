@@ -16,13 +16,17 @@ Most of my work is documented in papers and technical reports; wherever possible
 
 - **extract high-fidelity vehicle trajectories from aerial videos (TGSIM, FHWA)** Developed a deep-learning pipeline (detection → tracking → stabilization → cleaning) that processed  
   14 hours of raw helicopter video into **11,000+ vehicle-kilometers** of accurate trajectories.  
-  - [code](https://github.com/ylinzhang12/TGSIM-trajectory-pipeline) &nbsp; [pdf]([https://arxiv.org/abs/XXXX.XXXXX](https://www.researchgate.net/profile/Pedram-Beigi-3/publication/382536893_Introduction_to_the_Third_Generation_Simulation_Dataset_Data_Collection_and_Trajectory_Extraction/links/675544daad10b614ef36f8fb/Introduction-to-the-Third-Generation-Simulation-Dataset-Data-Collection-and-Trajectory-Extraction.pdf))  
+  - [code](https://github.com/ylinzhang12/TGSIM-trajectory-pipeline) &nbsp; [pdf](https://www.researchgate.net/profile/Pedram-Beigi-3/publication/382536893_Introduction_to_the_Third_Generation_Simulation_Dataset_Data_Collection_and_Trajectory_Extraction/links/675544daad10b614ef36f8fb/Introduction-to-the-Third-Generation-Simulation-Dataset-Data-Collection-and-Trajectory-Extraction.pdf)  
 
 - **validate and compare large-scale AV trajectory datasets** (e.g., Waymo Open Motion vs. a Phoenix naturalistic dataset), focusing on lane-changing, car-following, and intersection behavior  
   - [pdf](https://arxiv.org/pdf/2509.03515)
 
 - **develop real-time perception stacks in ROS** with LiDAR segmentation, radar tracking, camera fusion, and longitudinal control evaluation on a Dataspeed drive-by-wire platform  
-  - [code](https://github.com/ava-share)
+ 
+- **develop perception and analytics pipelines for autonomous driving**  
+  Designed and implemented ROS modules for real-time LiDAR segmentation, radar tracking, camera fusion, and Kalman-filter-based lead-vehicle detection. In parallel, I built a unified data analysis pipeline for trajectory cleaning, interpolation, smoothing, lane assignment, kinematics estimation, and interaction feature extraction, supporting large-scale datasets.
+    - [code](https://github.com/ava-share)
+
  
 *(In several cases the code is hosted under lab or project organizations; I link to those repositories where I am a main contributor.)*
 
