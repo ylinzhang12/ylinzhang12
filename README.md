@@ -14,6 +14,10 @@ Over the past years, I’ve led or co-led research on multiple projects funded b
 
 Most of my work is documented in papers and technical reports; wherever possible, **code and instructions to reproduce key results are (or will be) open-sourced on GitHub**. Below is a more detailed list of ongoing and completed lines of work, where we:
 
+- **extract high-fidelity vehicle trajectories from aerial videos (TGSIM, FHWA)** Developed a deep-learning pipeline (detection → tracking → stabilization → cleaning) that processed  
+  14 hours of raw helicopter video into **11,000+ vehicle-kilometers** of accurate trajectories.  
+  - [code](https://github.com/ylinzhang12/TGSIM-trajectory-pipeline) &nbsp; [pdf]([https://arxiv.org/abs/XXXX.XXXXX](https://www.researchgate.net/profile/Pedram-Beigi-3/publication/382536893_Introduction_to_the_Third_Generation_Simulation_Dataset_Data_Collection_and_Trajectory_Extraction/links/675544daad10b614ef36f8fb/Introduction-to-the-Third-Generation-Simulation-Dataset-Data-Collection-and-Trajectory-Extraction.pdf))  
+
 - **validate and compare large-scale AV trajectory datasets** (e.g., Waymo Open Motion vs. a Phoenix naturalistic dataset), focusing on lane-changing, car-following, and intersection behavior  
   - [pdf](https://arxiv.org/pdf/2509.03515)
 
@@ -30,29 +34,3 @@ My academic CV is available at:
 - Google Scholar: https://scholar.google.com/citations?user=qhO_nfcAAAAJ&hl=en&oi=sra  
 - LinkedIn: https://www.linkedin.com/in/zhang-yanlin  
 
----
-
-### Other interesting repositories I have made public include:
-
-- **[AerialTrajectoryExtraction](#)**  
-  Deep-learning-based pipeline (detection → tracking → stabilization → cleaning) to extract accurate vehicle trajectories from aerial video (TGSIM-related).  
-  <!-- TODO: replace # with actual repo link, or point to org repo + note your role -->
-
-- **[ROS-Perception-Stack-AV](#)**  
-  ROS packages for radar–camera–LiDAR fusion, Kalman filtering, and lead-vehicle tracking, tested on a full-scale AV platform (AVA / ENACT projects).  
-
-- **[WaymoPHX-Validation-Toolkit](#)**  
-  Tools to compare behavior distributions (lane-changing, car-following, intersection operations) between Waymo Open Motion and a real-world Phoenix dataset.  
-
-- **[SER-Image-Segmentation-and-Safety](#)**  
-  Image segmentation + roadway/vegetation feature extraction + crash severity modeling for self-enforcing roadways (SER, Illinois DOT).  
-
-- **[TrajectoryKinematicsToolkit](#)**  
-  Scripts for cleaning, smoothing, interpolating, and deriving kinematics (speed, acceleration, lateral measures) from raw trajectory data.  
-
-- **[Teaching-and-Utilities](#)**  
-  Small utilities, examples, and teaching material for Python, ML, and data analysis in transportation.
-
-*(Several of these repositories are collaborative; ownership may reside with my lab or collaborators. I link them here to provide an overview of the methods and tools I helped develop.)*
-
----
